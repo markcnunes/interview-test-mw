@@ -1,0 +1,46 @@
+// Colors - Code
+
+//-- base
+$color-black: #000;
+$color-black-light: #2d2d2b;
+$color-white: #fff;
+
+//-- colors
+$yellow: #fef200;
+$blue: #0397d8;
+
+// Colors - Var
+$color-one: $yellow;
+$color-two: $blue;
+$color-three: $color-black-light;
+
+
+// Spacing
+$xs-size: 0.6rem;
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$m-x-size: 2.4rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$xxl-size: 6.2rem;
+$xxxl-size: 8rem;
+$xsl-size: 9.2rem;
+
+// Screen size
+$screen-mobile-s: 23rem;
+$screen-mobile-m: 30rem;
+$screen-phablet: 40rem;
+$screen-tablet: 50rem;
+$screen-laptop: 70rem;
+
+// Font
+$font-family-primary: 'Source Sans Pro', sans-serif;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+//Transition
+$transition-fast: 0.3s ease;
+$transition-default: 0.5s ease;
+
+// Border
+$border-radius: 4px;

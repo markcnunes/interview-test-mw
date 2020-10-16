@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  letter-spacing: 1px;
+}
+
+body {
+  position: relative;
+  background: $color-three;
+  font-family: $font-family-primary;
+  line-height: 1.4;
+  font-size: $m-size;
+  color: $color-white;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: $m-x-size;
+}
+
+h3 {
+  font-size: $m-size;
+}
+
+h6 {
+  font-size: $s-size;
+}
+
+button {
+  cursor: pointer;
+  font-family: $font-family-primary;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 $m-size;
+}
+
+.loading {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: $xsl-size auto;
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background: $color-black;
+  padding: $m-size;
+}

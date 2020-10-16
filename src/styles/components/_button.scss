@@ -1,0 +1,53 @@
+// Buttons
+.button,
+.button--primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-two;
+    color: $color-white;
+    font-weight: $font-weight-normal;
+    font-size: inherit;
+    border: 1px solid $color-two;
+    padding: $s-size;
+    border-radius: $border-radius;
+    transition: $transition-fast;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+
+    &:hover {
+        background: darken($color-two, 5%);
+    }
+
+    @media (min-width: $screen-tablet) {
+        margin: 0;
+    }
+}
+
+.button--secondary {
+    @extend .button--primary;
+    background: transparent;
+    border-color: $color-one;
+
+   &:hover {
+       border-color: $color-two;
+   }
+}
+
+.button--tertiary {
+    @extend .button--secondary;
+    background: transparent;
+    border-color: $color-black;
+
+   &:hover {
+       background: $color-black;
+   }
+}
+
+.button--link {
+    background: none;
+    border: none;
+    color: $color-black;
+    padding: 0;
+}
